@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *str = [[NSBundle mainBundle] bundleIdentifier];
+    NSLog(@"str = %@", str);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					B848CAD51CCF37F5005F4FF3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 686TP5D9Q7;
 					};
 					B848CAEE1CCF37F5005F4FF3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -413,7 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YFPushTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YFPushTest.BigShow.YFPushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = YFPushTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YFPushTest.BigShow.YFPushTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
